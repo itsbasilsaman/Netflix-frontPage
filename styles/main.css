@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.container-1 {
+  background: url('../images/main-home-page.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+}
+.background-div {
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.622);
+} 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+ 
+}
+main p {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 80px;
+}
+main .second-line {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 11px;
+}
+main .third-line {
+  font-size: 1.27rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+main input {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 12px;
+    width: 364px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.627);
+    border: 1px solid rgb(118, 118, 118);  
+    border-radius: 4px; 
+}
+main input::placeholder {
+   color: rgb(174, 170, 170);   
+}
+main button {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  background: rgb(229, 9, 20);
+  color: white;
+  height: 56px;
+  width: 213px;
+  border: none;
+  margin-left: 8px;
+  
+}
+main .input-button {
+  display: flex;
+  margin-top: 15px;
+
+}
+.input-button img {
+  position: relative;
+  top: 6%;
+}
+
+/* main 2 */
+
+.second-main {
+  width: 100%;
+  height: 582px;
+  background-color: azure;
+}
+
+/* 1519
+582 */
